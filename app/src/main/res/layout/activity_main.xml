@@ -4,21 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#52BE80"
     android:orientation="vertical"
     android:gravity="center"
+    android:padding="90dp"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
+        android:id="@+id/button3"
+        android:layout_width="163dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
+        android:layout_margin="36dp"
+        android:background="@drawable/btn_presionar"
+        android:text="Presiona aqui" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:id="@+id/button4"
+        android:layout_width="157dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
+        android:layout_margin="36dp"
+        android:background="@drawable/bg_ripple"
+        android:text="No presiones aqui"
+        android:textColor="@drawable/texto_btn_no_presionar" />
+
+
 </LinearLayout>
